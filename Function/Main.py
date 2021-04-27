@@ -12,7 +12,7 @@ from google.cloud import translate_v2
 from pathlib import Path as PA
 
 ### Initialize Environment
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'Google_Vision_API.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'E:\Study Stuff\3rd year\ESD ( 29-4)\API_KEY.json'
 # Instantiates a client
 client = vision_v1.ImageAnnotatorClient()
 client_2 = translate_v2.Client()
