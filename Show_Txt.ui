@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>776</width>
+    <height>980</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:		#66545e;</string>
+  </property>
+  <widget class="QLabel" name="Cam_Feed">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>581</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>490</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:bold 14pt &quot;Times New Roman&quot;;
+color: 		#f6e0b5 ;</string>
+   </property>
+   <property name="text">
+    <string>Text Extracted from the Image:</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="Txt_Img">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>530</y>
+     <width>581</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: 	#eea990;
+font: 12pt &quot;Times New Roman&quot;;
+color: 			#36393e ;</string>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="To_SC">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>570</y>
+     <width>101</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: 	#aa6f73 ;
+color: 	#f6e0b5 ;</string>
+   </property>
+   <property name="text">
+    <string>To show cam</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="To_Br">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>680</y>
+     <width>101</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: 	#aa6f73 ;
+color: 	#f6e0b5 ;</string>
+   </property>
+   <property name="text">
+    <string>To Browse</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="Tran_Txt">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>730</y>
+     <width>581</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: 	#eea990;
+font: 12pt &quot;Times New Roman&quot;;
+color: 			#36393e ;</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="Src_Lang">
+   <property name="geometry">
+    <rect>
+     <x>478</x>
+     <y>500</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: 	#eea990;
+font: 10pt &quot;Times New Roman&quot;;
+color: 		#36393e;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="Des_Lang">
+   <property name="geometry">
+    <rect>
+     <x>478</x>
+     <y>690</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: 	#eea990;
+font: 10pt &quot;Times New Roman&quot;;
+color: 			#36393e ;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>500</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:bold 11pt &quot;Times New Roman&quot;;
+color: 		#f6e0b5 ;</string>
+   </property>
+   <property name="text">
+    <string>Translate from:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>690</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:bold 11pt &quot;Times New Roman&quot;;
+color: 		#f6e0b5 ;</string>
+   </property>
+   <property name="text">
+    <string>Translate to:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Trans">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>790</y>
+     <width>101</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: 	#aa6f73 ;
+color: 	#f6e0b5 ;</string>
+   </property>
+   <property name="text">
+    <string>Translate</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Notice">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>690</y>
+     <width>251</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:bold 10pt &quot;Times New Roman&quot;;
+color: 		#f6e0b5 ;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
